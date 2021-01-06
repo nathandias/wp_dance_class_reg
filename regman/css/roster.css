@@ -1,0 +1,93 @@
+/* CSS Document */
+
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 76%;
+}
+
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+h4 {
+	font-size:12px;
+}
+
+/* Tables */
+table.gridtable {
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	border-style: solid;
+	border-color:black;
+}
+table.gridtable td {
+	border-width: 1px;
+	border-style: solid;
+	vertical-align:top;
+	border-color:black;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+table.gridtable tr.even {
+	background-color:white;
+}
+
+table.gridtable tr.odd {
+	background-color:#CCCCCC;
+}
+
+table.gridtable tr th.name_col,
+table.gridtable tr th.email_col,
+table.gridtable tr th.class_col {
+	width:60px;
+}
+
+table.gridtable tr th.pass_col {
+	width:30px;
+}
+
+ul.navigation {
+	margin:0px;
+	margin-top:0px;
+	padding:5px;
+	background-color:#666666;
+	font-size:14px;
+}
+ul.navigation li, ul.navigation li a {
+ display:inline;
+ color:#FFFFFF;
+ margin:10px;
+ margin-left:0px;
+ margin-top:15px;
+ text-decoration:none;
+}
+
+ul.navigation li a:hover {
+	color:#FFCC00;
+}
+
+table tr td{
+	font-size: 80%;
+}
+
+@media print {
+
+table.gridtable tr.even {
+	background-color:white;
+}
+
+table.gridtable tr.odd {
+	background-color:#CCCCCC;
+}
+
+
+}

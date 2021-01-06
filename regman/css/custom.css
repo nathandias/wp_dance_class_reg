@@ -1,0 +1,169 @@
+/* CSS Document */
+
+/* CSS Document */
+
+#header {
+	background-color:#369;
+	color: white;
+}
+#header table {
+	padding-left:20px;
+	color:#FFFFFF;
+}
+
+#side-a h1, #side-b h1, #content h1 {
+	font-size: 16px;
+
+}
+
+#side-a h2, #side-b h2, #content h2 {
+	font-size: 14px;
+}
+
+#side-a h3, #side-b h3, #content h3 {
+	font-size: 12px;
+}
+#content {
+	padding-left:10px;
+}
+
+#content table tr td {
+	vertical-align:top;
+}
+
+#footer {
+	text-align:center;
+}
+
+/* Navigation Menu */
+ul#menu{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:100%;
+	position:relative;
+	display:block;
+	height:40px;
+	text-transform:uppercase;
+	font-size:13px;
+	background:transparent url("images/black.jpg") repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+}
+ul#menu li{
+	display:block;
+	float:left;
+	margin:0;
+	pading:0;
+	border-right:1px solid #ffffff;
+	}
+ul#menu li a{
+	display:block;
+	float:left;
+	color:#ffffff;
+	text-decoration:none;
+	padding:12px 20px 0 20px;
+	height:24px;
+	height:40px;
+	}
+ul#menu li a:hover{
+	background:transparent url("images/blue.jpg") repeat-x top left;	
+	}
+
+/* IE < 5.0 menu */
+p.menu {
+	padding:10px;
+	font-size:16px;
+}
+a.menu:link, a.menu:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+a.menu:hover {
+	color:#0099FF;
+	text-decoration: none;
+}
+
+/* Events List */
+ul.events {
+	list-style-type:none;
+	margin-left:0px;
+	 padding-left:3px;
+}
+ul.events li {
+	padding-bottom: 10px;
+}
+
+/* Blog listing */
+.blog ul {
+	list-style-type:none;
+	margin-left:0px; 
+	padding-left:3px;
+}
+.blog ul li {
+	padding-bottom:10px;
+}
+
+/* front page icon images */
+.icon {
+	border:1px solid black;
+	margin-right:10px;
+	vertical-align: center;
+}
+
+.social_media_markers a img{
+	border-style:none;
+}
+.social_media_markers p a {
+	text-decoration:none;
+}
+
+a, a.visited {
+	color:#006699;
+}
+
+.gig_date {
+	font-weight:bold;
+}
+
+/* Wordpress customizations */
+.post img.alignleft {
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+.post img.alignright {
+	float:right;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ul.sidebar_items_list li {
+   list-style-type:none;
+}
+
+
+a.bookmark_icon img {
+   border-style:none;
+}
+ul.sidebar_items_list li ul.sz-videolisting li{
+	list-style-type:none;
+	margin-left:0px;
+padding-left:0px;
+
+}
+
+.post ul {
+	overflow: auto;
+}
+
+body {
+    background:url(/wp-content/themes/BASIC/images/dance_floor.jpg) center top;
+}
